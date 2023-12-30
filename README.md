@@ -4,4 +4,5 @@ crete a user https://apibank-33eo.onrender.com/api/v1/users   give only cash and
 update a user https://apibank-33eo.onrender.com/api/v1/users/:id you have to change everything and can't have same name if a user already exists
 depost a user https://apibank-33eo.onrender.com/api/v1/users/:id/deposit
 withdraw a user https://apibank-33eo.onrender.com/api/v1/users/:id/withdraw
-transfer money https://apibank-33eo.onrender.com/api/v1/users/:idTo/trans/:idFrom
+transfer money https://apibank-33eo.onrender.com/api/v1/users/:idTo/trans/:idFrom only give the amount of money
+do in json { "amount":number }
